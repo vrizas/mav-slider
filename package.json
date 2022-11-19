@@ -1,0 +1,25 @@
+{
+  "name": "mav-slider",
+  "version": "1.0.0",
+  "description": "Cool and customizable slider for your website",
+  "main": "mav-slider.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrizas/mavSlider.git"
+  },
+  "keywords": [
+    "mavSlider"
+  ],
+  "author": "vrizas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vrizas/mavSlider/issues"
+  },
+  "homepage": "https://github.com/vrizas/mavSlider#readme",
+  "dependencies": {
+    "mav-slider": "^1.0.0"
+  }
+}
