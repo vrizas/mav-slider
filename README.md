@@ -7,16 +7,14 @@ mav-slider is a package that provides a cool and customizable slider for your we
 Use the CDN link to start using the package.
 
 ```html
-https:://
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mav-slider@1.0.1/css/mav-slider.css">
+<script src="https://cdn.jsdelivr.net/npm/mav-slider@1.0.1/mav-slider.js"></script>
 ```
 
-Or use the package manager [npm]() or [yarn]() to install the package.
+Or use the package manager [npm](https://www.npmjs.com/package/mav-slider) to install the package.
 
 ```bash
 npm install mav-slider
-```
-```bash
-yarn add mav-slider
 ```
 
 ## Usage
