@@ -1,6 +1,6 @@
 {
   "name": "mav-slider",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cool and customizable slider for your website",
   "main": "mav-slider.js",
   "scripts": {
