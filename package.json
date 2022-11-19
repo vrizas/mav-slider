@@ -8,18 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vrizas/mavSlider.git"
+    "url": "git+https://github.com/vrizas/mav-slider.git"
   },
   "keywords": [
-    "mavSlider"
+    "mav-slider",
+    "slider",
+    "carousel"
   ],
   "author": "vrizas",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vrizas/mavSlider/issues"
+    "url": "https://github.com/vrizas/mav-slider/issues"
   },
-  "homepage": "https://github.com/vrizas/mavSlider#readme",
-  "dependencies": {
-    "mav-slider": "^1.0.0"
-  }
+  "homepage": "https://github.com/vrizas/mav-slider#readme"
 }

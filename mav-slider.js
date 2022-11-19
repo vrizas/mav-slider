@@ -26,7 +26,15 @@ function MavSlider(options) {
         ajax: {},
     }
 
-    const settings = { ...defaultStyling, ...defaultConfig, ...options, slideHeight: options ? options.slideHeight : null || options ? options.slideWidth : null || defaultStyling.slideWidth };
+    if (options) {
+        defaultStyling.slideHeight = options.slideHeight || options.slideWidth;
+    } 
+
+    if (!options || !defaultStyling.slideHeight) {
+        defaultStyling.slideHeight = defaultStyling.slideWidth;
+    }
+
+    const settings = { ...defaultStyling, ...defaultConfig, ...options };
 
     const _this = this;
     const mavSlider = document.querySelector(settings.container);
