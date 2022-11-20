@@ -50,12 +50,11 @@ Result: <br>
 ```
 
 ```javascript
-$("#mavSlider").mavSlider({
-    container: '#customContainer',
-    dotSize: 3,
-    offset: 1,
-    slideHeight: "300px",
-    slideWidth: "300px",
+new MavSlider({
+   dotSize: 3,
+   offset: 1,
+   slideHeight: "300px",
+   slideWidth: "300px",
 });
 ```
 Result: <br>
@@ -64,11 +63,12 @@ Result: <br>
 ### Using Ajax
 
 ```javascript
-$("#mavSlider").mavSlider({
-    ajax: {
-        url: "https://picsum.photos/v2/list?page=2&limit=5",
-        srcImgLocator: "download_url",
-    },
+new MavSlider({
+     container: "#mavSlider2",
+     ajax: {
+          url: "https://picsum.photos/v2/list?page=2&limit=5",
+          srcImgLocator: "download_url",
+     },
 });
 ```
 Result: <br>
